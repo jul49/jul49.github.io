@@ -1,0 +1,80 @@
+body {
+  background: #6B6570;
+  color: #EAE6E5;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 10px 400px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+#hello {
+  font-size: 40px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+nav a {
+  position: relative;
+  font-size: 14px;
+  padding: 20px;
+  letter-spacing: 3px;
+  color: #EAE6E5;
+  text-decoration: none;
+}
+
+nav a:hover {
+  letter-spacing: 5px;
+  transition: all 0.5s ease;
+  transition: all 0.5s ease-out;
+}
+
+nav a:active {
+  text-decoration: none;
+}
+
+nav a:visited {
+  text-decoration: none;
+}
+
+footer div {
+  display: inline-block;
+  border: 0;
+  width: 120px;
+  height: 5px;
+  padding: 4px;
+  font-size: 20px;
+  margin: 0;
+  -webkit-transform: skew(-35deg);
+    -moz-transform: skew(-35deg);
+      -o-transform: skew(-35deg);
+}
+
+
+#box1 {
+  background: #8499B1;
+  color: #EAE6E5;
+}
+
+#box2 {
+  background: #7FC29B;
+  color: #EAE6E5;
+}
+
+#box3 {
+  background: #B5EF8A;
+  color: #EAE6E5;
+}
+
+#box4 {
+  background: #D7F171;
+  color: #EAE6E5;
+}
+
+
+
+
+/* ===== RESPONSIVE ===== */
